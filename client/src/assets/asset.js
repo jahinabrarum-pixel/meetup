@@ -2,12 +2,12 @@
 
 export const dummyUser = {
     id: "user_mock_001",
-    fullName: "Alex Rivera",
-    firstName: "Alex",
-    lastName: "Rivera",
-    name: "Alex Rivera",
+    fullName: "Abrar Jahin",
+    firstName: "Abrar",
+    lastName: "Jahin",
+    name: "Abrar Jahin",
     primaryEmailAddress: {
-        emailAddress: "alex.rivera@example.com",
+        emailAddress: "abrar.jahin@example.com",
     },
     imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
 };
