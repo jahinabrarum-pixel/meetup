@@ -120,7 +120,7 @@ const ControlBar = ({
         {/* Screen Share */}
         <button
           onClick={onScreenShare}
-          className={`p-3.5 rounded-2xl transition-all cursor-pointer border ${
+          className={`hidden lg:block p-3.5 rounded-2xl transition-all cursor-pointer border ${
             isScreenSharing
               ? "bg-rose-50 hover:bg-rose-100 text-rose-600 border-rose-200 shadow-xs"
               : "bg-slate-100 hover:bg-slate-200 text-slate-800 border-slate-300 shadow-xs"
@@ -186,9 +186,7 @@ const ControlBar = ({
           >
             <PhoneOffIcon className="w-5 h-5" />
 
-            <span className="hidden md:inline">
-              End Meeting
-            </span>
+            <span className="hidden md:inline">End Meeting</span>
           </button>
         ) : (
           <button
@@ -205,9 +203,7 @@ const ControlBar = ({
 
       {/* Right Placeholder */}
       <div className="hidden sm:block w-32 text-right">
-        <span className="font-medium text-slate-400">
-          MeetUp Room
-        </span>
+        <span className="font-medium text-slate-400">MeetUp Room</span>
       </div>
     </footer>
   );
